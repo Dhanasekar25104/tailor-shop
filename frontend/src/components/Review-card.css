@@ -1,0 +1,25 @@
+.review-card {
+  width: 90%;
+  min-height: 200px;
+  background-color: white;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+}
+.review-card h3 i {
+  color: yellow;
+}
+.review-card h3 {
+  display: inline-block;
+  margin: 15px;
+}
+.review-card h4 {
+  display: inline-block;
+  margin: 15px;
+  min-width: 80px;
+}
+.review-card p {
+  padding: 10px;
+  text-align: justify;
+  line-height: 23px;
+}

@@ -1,0 +1,83 @@
+.booking form input,
+.booking form select,
+.booking form textarea {
+  width: 100%;
+  height: 30px;
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px 0px 15px 0px;
+  border: none;
+  outline: none;
+}
+.booking form input:focus {
+  border-bottom: 3px solid var(--darkgrey);
+}
+.booking form select {
+  height: 40px;
+  width: 460px;
+  background-color: white;
+}
+.booking {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 600px;
+  background: linear-gradient(to top left, var(--darkgrey), black);
+  overflow: hidden;
+}
+.booking form {
+  background-color: var(--lightgrey);
+  padding: 30px;
+  margin: 100px 0px 100px 0px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+  position: relative;
+}
+.booking form lable {
+  margin-top: 10px;
+}
+.booking form textarea {
+  min-height: 130px;
+}
+.booking button {
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  font-size: 20px;
+  background-color: var(--darkgrey);
+  border: 1px solid var(--lightgrey);
+  color: var(--white);
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.form-buttons {
+  display: flex;
+}
+.booking button:hover,
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: var(--white);
+  color: var(--darkgrey);
+  transition: 0.5s;
+  box-shadow: 2px 2px 4px black;
+}
+
+span {
+  margin: 20px 0px;
+}
+.booking p i {
+  margin-right: 15px;
+}
+
+@media all and (max-width: 600px) {
+  .booking form,
+  .booking form button {
+    width: 250px;
+  }
+  .booking form select {
+    width: 257px;
+  }
+}

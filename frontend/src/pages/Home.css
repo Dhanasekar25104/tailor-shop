@@ -1,0 +1,147 @@
+.homebg {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-image: linear-gradient(
+      to top left,
+      rgba(22, 22, 22, 0.096),
+      rgba(0, 0, 0, 0.87)
+    ),
+    url("../image/coat-bg.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  flex-direction: column;
+  background-attachment: fixed;
+  position: relative;
+}
+.homebg img {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 400px;
+}
+.homebg h1 {
+  color: var(--white);
+  font-size: 40px;
+  margin: 20px;
+  margin-bottom: 100px;
+}
+.design-icon {
+  width: 50px;
+  position: absolute;
+}
+.ico-1 {
+  top: 160px;
+  right: 20px;
+}
+.ico-2 {
+  top: -60px;
+  left: 90px;
+}
+.ico-3 {
+  top: 160px;
+  left: -10px;
+}
+.ico-4 {
+  top: 360px;
+  right: -10px;
+}
+.about-detail img {
+  width: 300px;
+  height: 350px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.about-detail {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 450px;
+}
+.about-us h1 {
+  text-align: center;
+}
+.about-us p {
+  max-width: 800px;
+  padding: 20px;
+  line-height: 25px;
+  text-align: justify;
+}
+.about-us {
+  width: 85%;
+  margin: 0px auto;
+  position: relative;
+}
+
+.about-us,
+.service {
+  margin-top: 50px;
+}
+
+.service {
+  background-color: var(--darkgrey);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.service h1,
+.steps h1 {
+  text-align: center;
+}
+.service-block img {
+  width: 350px;
+  height: 250px;
+}
+.service-block p {
+  max-width: 700px;
+  text-align: justify;
+  margin-top: 20px;
+  line-height: 25px;
+  color: white;
+}
+.service h1 {
+  color: white;
+}
+.service-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px 150px;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.step {
+  min-height: 150px;
+  width: 65%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--darkgrey);
+  color: var(--white);
+}
+.step p {
+  line-height: 23px;
+}
+.steps {
+  overflow: hidden;
+}
+@media all and (max-width: 800px) {
+  .service-block {
+    margin: 50px 20px;
+  }
+  .service-block img {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media all and (max-width: 410px) {
+  .ico-2,
+  .ico-3,
+  .ico-4 {
+    display: none;
+  }
+}
