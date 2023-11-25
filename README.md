@@ -19,7 +19,7 @@ Fostering trust and credibility, the review page aggregates positive feedback fr
 ![1700819479074](https://github.com/Dhanasekar25104/tailor-shop/assets/123866366/3d55d996-2323-4769-8a97-9c4b5f7d57ec)
 
 
-![1700819479065](https://github.com/Dhanasekar25104/tailor-shop/assets/123866366/857a2920-324f-46cf-8158-8c568123bb7c)
+![1700897187709](https://github.com/Dhanasekar25104/tailor-shop/assets/123866366/3e9a540a-5716-4768-8c45-cef8793fcdf1)
 
 ![1700819479086](https://github.com/Dhanasekar25104/tailor-shop/assets/123866366/f5cd5768-3213-4298-9aca-9e3c7d10c2db)
 
