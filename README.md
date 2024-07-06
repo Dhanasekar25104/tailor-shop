@@ -36,6 +36,9 @@ Fostering trust and credibility, the review page aggregates positive feedback fr
 
 ![1700819479037](https://github.com/Dhanasekar25104/tailor-shop/assets/123866366/a16e7806-ef29-4490-909f-a86cb9bc1472)
 
+## Demo
+ https://drive.google.com/drive/folders/14GUbFpS1K27kuBeCicwNxkWACR1MvcML
+ 
 ## Technologies used
 ### Frontend
 - HTML
