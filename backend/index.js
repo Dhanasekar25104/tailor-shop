@@ -5,7 +5,7 @@ const app=express();
 const db=mysql2.createConnection({
     host:"localhost",
     user:"root",
-    password:"Pradh78p@12",
+    password:"...",
     database:"tailorshop"
 });
 app.use(express.json());
